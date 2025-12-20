@@ -190,16 +190,24 @@ function initPhotoWall() {
   }
 
   function setItemLayout(item) {
-    const rotate = rand(-6, 6).toFixed(1);
-    const tx = rand(-6, 6).toFixed(1);
-    const ty = rand(-6, 6).toFixed(1);
+    const rotate = rand(-5, 5).toFixed(1);
     const z = Math.floor(rand(1, 10));
-    const colSpan = Math.random() < 0.22 ? 2 : 1;
-    const rowSpan = Math.random() < 0.28 ? 2 : 1;
+    const shapeRoll = Math.random();
+    let colSpan = 1;
+    let rowSpan = 1;
+
+    if (shapeRoll < 0.28) {
+      colSpan = 2;
+      rowSpan = 1;
+    } else if (shapeRoll < 0.56) {
+      colSpan = 1;
+      rowSpan = 2;
+    } else if (shapeRoll < 0.68) {
+      colSpan = 2;
+      rowSpan = 2;
+    }
 
     item.style.setProperty('--rot', `${rotate}deg`);
-    item.style.setProperty('--tx', `${tx}px`);
-    item.style.setProperty('--ty', `${ty}px`);
     item.style.zIndex = z;
     item.style.gridColumn = `span ${colSpan}`;
     item.style.gridRow = `span ${rowSpan}`;
@@ -209,7 +217,7 @@ function initPhotoWall() {
     .then((response) => (response.ok ? response.json() : []))
     .then((images) => {
       if (!Array.isArray(images) || !images.length) return;
-      const count = Math.min(18, images.length);
+      const count = Math.min(40, images.length);
       wall.innerHTML = '';
       for (let i = 0; i < count; i += 1) {
         const item = document.createElement('span');
