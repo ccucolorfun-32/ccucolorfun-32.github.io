@@ -138,36 +138,100 @@ async function loadWorks() {
 }
 
 loadWorks();
+initLights();
+initPhotoWall();
 
 function initLights() {
   const lights = document.querySelectorAll('.lights span');
   if (!lights.length) return;
-  const hues = [10, 28, 50, 110, 140, 190, 220, 300, 340];
+  function rand(min, max) {
+    return Math.random() * (max - min) + min;
+  }
+
+  function randomizePosition(light) {
+    const x = rand(6, 94).toFixed(1) + '%';
+    const y = rand(8, 92).toFixed(1) + '%';
+    light.style.setProperty('--x', x);
+    light.style.setProperty('--y', y);
+  }
+
+  lights.forEach((light) => {
+    light.style.setProperty('--speed', '3s');
+    light.style.setProperty('--delay', '0s');
+    randomizePosition(light);
+    light.addEventListener('animationiteration', () => {
+      randomizePosition(light);
+    });
+  });
+}
+function initPhotoWall() {
+  const wall = document.getElementById('photoWall');
+  if (!wall) return;
 
   function rand(min, max) {
     return Math.random() * (max - min) + min;
   }
 
-  function randomizeLight(light, initial) {
-    const x = rand(6, 94).toFixed(1) + '%';
-    const y = rand(8, 92).toFixed(1) + '%';
-    const size = Math.round(rand(100, 180)) + 'px';
-    const hue = hues[Math.floor(rand(0, hues.length))];
-    const speed = rand(5.5, 9.5).toFixed(2) + 's';
-    const delay = initial ? (-rand(0, 6)).toFixed(2) + 's' : '0s';
-
-    light.style.setProperty('--x', x);
-    light.style.setProperty('--y', y);
-    light.style.setProperty('--size', size);
-    light.style.setProperty('--hue', hue);
-    light.style.setProperty('--speed', speed);
-    light.style.setProperty('--delay', delay);
+  function pick(images) {
+    return images[Math.floor(Math.random() * images.length)];
   }
 
-  lights.forEach((light) => {
-    randomizeLight(light, true);
-    light.addEventListener('animationiteration', () => randomizeLight(light, false));
-  });
+  function setItemImage(item, images, fade) {
+    const src = pick(images);
+    if (!fade) {
+      item.style.setProperty('--img', `url("${src}")`);
+      return;
+    }
+    item.classList.add('is-fading');
+    window.setTimeout(() => {
+      item.style.setProperty('--img', `url("${src}")`);
+      item.classList.remove('is-fading');
+    }, 400);
+  }
+
+  function setItemLayout(item) {
+    const rotate = rand(-6, 6).toFixed(1);
+    const tx = rand(-6, 6).toFixed(1);
+    const ty = rand(-6, 6).toFixed(1);
+    const z = Math.floor(rand(1, 10));
+    const colSpan = Math.random() < 0.22 ? 2 : 1;
+    const rowSpan = Math.random() < 0.28 ? 2 : 1;
+
+    item.style.setProperty('--rot', `${rotate}deg`);
+    item.style.setProperty('--tx', `${tx}px`);
+    item.style.setProperty('--ty', `${ty}px`);
+    item.style.zIndex = z;
+    item.style.gridColumn = `span ${colSpan}`;
+    item.style.gridRow = `span ${rowSpan}`;
+  }
+
+  fetch('../data/first_page_images.json', { cache: 'no-store' })
+    .then((response) => (response.ok ? response.json() : []))
+    .then((images) => {
+      if (!Array.isArray(images) || !images.length) return;
+      const count = Math.min(18, images.length);
+      wall.innerHTML = '';
+      for (let i = 0; i < count; i += 1) {
+        const item = document.createElement('span');
+        item.className = 'photo-item';
+        setItemLayout(item);
+        setItemImage(item, images, false);
+        wall.appendChild(item);
+      }
+      setInterval(() => {
+        const items = wall.querySelectorAll('.photo-item');
+        const total = items.length;
+        if (!total) return;
+        const changeCount = Math.max(1, Math.round(total * 0.2));
+        const indices = Array.from({ length: total }, (_, idx) => idx)
+          .sort(() => Math.random() - 0.5)
+          .slice(0, changeCount);
+        indices.forEach((idx) => setItemImage(items[idx], images, true));
+      }, 3000);
+    })
+    .catch((error) => {
+      console.error(error);
+    });
 }
 function slugify(text) {
   return text
