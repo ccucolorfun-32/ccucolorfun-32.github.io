@@ -139,6 +139,36 @@ async function loadWorks() {
 
 loadWorks();
 
+function initLights() {
+  const lights = document.querySelectorAll('.lights span');
+  if (!lights.length) return;
+  const hues = [10, 28, 50, 110, 140, 190, 220, 300, 340];
+
+  function rand(min, max) {
+    return Math.random() * (max - min) + min;
+  }
+
+  function randomizeLight(light, initial) {
+    const x = rand(6, 94).toFixed(1) + '%';
+    const y = rand(8, 92).toFixed(1) + '%';
+    const size = Math.round(rand(100, 180)) + 'px';
+    const hue = hues[Math.floor(rand(0, hues.length))];
+    const speed = rand(5.5, 9.5).toFixed(2) + 's';
+    const delay = initial ? (-rand(0, 6)).toFixed(2) + 's' : '0s';
+
+    light.style.setProperty('--x', x);
+    light.style.setProperty('--y', y);
+    light.style.setProperty('--size', size);
+    light.style.setProperty('--hue', hue);
+    light.style.setProperty('--speed', speed);
+    light.style.setProperty('--delay', delay);
+  }
+
+  lights.forEach((light) => {
+    randomizeLight(light, true);
+    light.addEventListener('animationiteration', () => randomizeLight(light, false));
+  });
+}
 function slugify(text) {
   return text
     .toString()
