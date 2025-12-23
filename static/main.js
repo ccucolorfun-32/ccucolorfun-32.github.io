@@ -184,17 +184,21 @@ function initPhotoWall() {
   let changeRatio = 0;
   let intervalMs = 0;
   const poolSize = 50;
+  let poolIndex = 0;
 
   function rand(min, max) {
     return Math.random() * (max - min) + min;
   }
 
-  function pick(images) {
-    return images[Math.floor(Math.random() * images.length)];
+  function nextFromPool(images) {
+    if (!images.length) return '';
+    const src = images[poolIndex % images.length];
+    poolIndex += 1;
+    return src;
   }
 
   function setItemImage(item, images, fade) {
-    const src = pick(images);
+    const src = nextFromPool(images);
     if (!src) return;
     if (!fade) {
       item.style.setProperty('--img', `url("${src}")`);
@@ -321,6 +325,7 @@ function initPhotoWall() {
     wall.innerHTML = '';
     items = [];
     wallImages = pool;
+    poolIndex = 0;
     preloadImages(wallImages);
     for (let i = 0; i < count; i += 1) {
       const item = document.createElement('span');
