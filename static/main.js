@@ -283,6 +283,8 @@ function initPhotoWall() {
   }
 
   function startCycle() {
+    // Disabled for testing: random refresh interval removed.
+    /*
     if (cycleId || prefersReduced || changeRatio <= 0) return;
     cycleId = window.setInterval(() => {
       if (!isVisible) return;
@@ -295,6 +297,7 @@ function initPhotoWall() {
       }
       picked.forEach((idx) => setItemImage(items[idx], wallImages, true));
     }, intervalMs);
+    */
   }
 
   function initWall(images) {
