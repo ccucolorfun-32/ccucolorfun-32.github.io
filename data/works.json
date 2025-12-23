@@ -34,5 +34,65 @@
     "concept": "新生週爬坡爬到厭煩所以在二手版上跟某學姐買了小黃，買完才發現小黃根本沒辦法爬坡 ^_^ 時速 6 要我的命，完全被它可愛的外表騙了，請大家三思而後行不要跟我一樣衝動購物。",
     "story": "Waiting...",
     "contact": "IG:@ccu.art.fun"
+  },
+  {
+    "id": "work-4",
+    "title": "咿啊蛤嘎",
+    "image": "../src/img/image3.jpg",
+    "medium": "棉布、油畫、壓克力顏料",
+    "creator": "盧亭諭",
+    "grade": "資管系",
+    "size": "80 x 120 cm",
+    "concept": "在小動物身上看到像人類一樣的情緒表達，總讓我忍不住想要抓住這種很「活」的有趣瞬間。",
+    "story": "Waiting...",
+    "contact": "IG:@ccu.art.fun"
+  },
+  {
+    "id": "work-5",
+    "title": "透明人間",
+    "image": "../src/img/image4.jpg",
+    "medium": "棉布、油畫、壓克力顏料",
+    "creator": "月球牡蠣🥑",
+    "grade": "心理系",
+    "size": "待量",
+    "concept": "空空的",
+    "story": "Waiting...",
+    "contact": "IG:@ccu.art.fun"
+  },
+  {
+    "id": "work-6",
+    "title": "司法官",
+    "image": "../src/img/image6.jpg",
+    "medium": "壓克力、棉布",
+    "creator": "黃少綦",
+    "grade": "財經法律研究所",
+    "size": "53 x 41 cm",
+    "concept": "以「凌波零」為發想，除了藍髮與紅眼之外，其眼神嚴肅且深邃，將自己的情感藏在最深處，非常迷人，同司法官在審案般不苟言笑。",
+    "story": "Waiting...",
+    "contact": "Mail:"
+  },
+  {
+    "id": "work-7",
+    "title": "蕾潔",
+    "image": "../src/img/image5.jpg",
+    "medium": "仿麻布、壓克力顏料",
+    "creator": "黃少綦",
+    "grade": "財經法律研究所",
+    "size": "60.5 x 50 cm",
+    "concept": "<鏈鋸人蕾潔篇>是最浪漫又殘忍的篇章，展現愛情並存於美好與毀滅之間。故事從蕾潔的一抹微笑開始，結束於生命草草逝去而不知。看完電影後在思緒萬千之下而畫成，暈船到現在。",
+    "story": "Waiting...",
+    "contact": "Mail:"
+  },
+  {
+    "id": "work-8",
+    "title": "麻雀",
+    "image": "../src/img/image7.jpg",
+    "medium": "棉布、油畫、壓克力顏料",
+    "creator": "甘雨潼",
+    "grade": "語言所碩二",
+    "size": "待量",
+    "concept": "在樹與樹之間的平台站著，用活潑的身影帶動了夏季。",
+    "story": "Waiting...",
+    "contact": "IG:@ccu.art.fun"
   }
 ]
