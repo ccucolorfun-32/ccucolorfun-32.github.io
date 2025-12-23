@@ -183,6 +183,7 @@ function initPhotoWall() {
   const blobCache = new Map();
   let changeRatio = 0;
   let intervalMs = 0;
+  const poolSize = 50;
 
   function rand(min, max) {
     return Math.random() * (max - min) + min;
@@ -193,8 +194,7 @@ function initPhotoWall() {
   }
 
   function setItemImage(item, images, fade) {
-    const pool = readyImages.length ? readyImages : images;
-    const src = pick(pool);
+    const src = pick(images);
     if (!src) return;
     if (!fade) {
       item.style.setProperty('--img', `url("${src}")`);
@@ -229,6 +229,15 @@ function initPhotoWall() {
     item.style.zIndex = z;
     item.style.gridColumn = `span ${colSpan}`;
     item.style.gridRow = `span ${rowSpan}`;
+  }
+
+  function pickPool(images, size) {
+    const copy = images.slice();
+    for (let i = copy.length - 1; i > 0; i -= 1) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy.slice(0, Math.min(size, copy.length));
   }
 
   function preloadImages(list) {
@@ -283,8 +292,6 @@ function initPhotoWall() {
   }
 
   function startCycle() {
-    // Disabled for testing: random refresh interval removed.
-    /*
     if (cycleId || prefersReduced || changeRatio <= 0) return;
     cycleId = window.setInterval(() => {
       if (!isVisible) return;
@@ -297,15 +304,15 @@ function initPhotoWall() {
       }
       picked.forEach((idx) => setItemImage(items[idx], wallImages, true));
     }, intervalMs);
-    */
   }
 
   function initWall(images) {
     if (!Array.isArray(images) || !images.length) return;
+    const pool = pickPool(images, poolSize);
     const maxCount = prefersReduced || saveData
       ? 18
       : (deviceMemory <= 4 || isSmallScreen ? 24 : 36);
-    const count = Math.min(maxCount, images.length);
+    const count = Math.min(maxCount, pool.length);
     changeRatio = prefersReduced
       ? 0
       : (saveData || deviceMemory <= 4 || isSmallScreen ? 0.12 : 0.18);
@@ -313,13 +320,13 @@ function initPhotoWall() {
 
     wall.innerHTML = '';
     items = [];
-    wallImages = images;
+    wallImages = pool;
     preloadImages(wallImages);
     for (let i = 0; i < count; i += 1) {
       const item = document.createElement('span');
       item.className = 'photo-item';
       setItemLayout(item);
-      setItemImage(item, images, false);
+      setItemImage(item, wallImages, false);
       wall.appendChild(item);
       items.push(item);
     }
