@@ -68,6 +68,7 @@ function closeFullview() {
 }
 
 viewFullBtn.addEventListener('click', openFullview);
+modalImage.addEventListener('click', openFullview);
 fullviewClose.addEventListener('click', closeFullview);
 fullview.addEventListener('click', (event) => {
   if (event.target === fullview) closeFullview();
