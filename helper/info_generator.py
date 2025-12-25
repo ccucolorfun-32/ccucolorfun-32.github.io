@@ -21,7 +21,7 @@ DATA_PATH = ROOT / "data" / "works.json"
 OUTPUT_DIR = Path(__file__).resolve().parent / "output"
 
 # Basic sizing
-CARD_WIDTH = 900
+CARD_WIDTH = 700
 CARD_HEIGHT = 1500
 PADDING = 70
 LINE_SPACING = 8
@@ -118,6 +118,11 @@ def make_card(work: dict):
 
   img = Image.new("RGB", (CARD_WIDTH, CARD_HEIGHT), color="#f5f6fa")
   draw = ImageDraw.Draw(img)
+  draw.rectangle(
+    [(0, 0), (CARD_WIDTH - 1, CARD_HEIGHT - 1)],
+    outline="#000000",
+    width=1
+  )
 
   title_font = load_font(46, bold=True)
   subtitle_font = load_font(32, bold=True)
