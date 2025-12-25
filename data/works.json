@@ -8,8 +8,8 @@
     "grade": "哲學系",
     "size": "80 x 120 cm",
     "concept": "春天是萬物逐漸復甦的季節，以春天為形象創造出人形，並用鮮花點綴畫面，營造欣欣向榮的豐富感。",
-    "story": "Waiting...",
-    "contact": "IG:@ccu.art.fun"
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
   },
   {
     "id": "work-2",
@@ -18,10 +18,10 @@
     "medium": "棉布、壓克力顏料",
     "creator": "黃少綦",
     "grade": "財法所",
-    "size": "90 x 90 cm",
+    "size": "45.5 x 33 cm",
     "concept": "是鏈鋸人第一季中我很喜歡的壞女人，她的對於理想世界的野心與企圖非常明確，也為此付出實際行動，我很喜歡。",
     "story": "因為支配惡魔的特性，她必須只能透過控制他人而活著，這也註定她成為一個悲情之人。瑪奇瑪不懂得如何與他人平等相處，但她卻渴望一個平等的擁抱。總之，瑪奇瑪真是令人印象深刻與著迷的女角。",
-    "contact": "Mail:ccuartfun@example.com"
+    "contact": "IG:@ccu_colorfun_club"
   },
   {
     "id": "work-3",
@@ -32,8 +32,8 @@
     "grade": "外文一",
     "size": "?? x ?? cm",
     "concept": "新生週爬坡爬到厭煩所以在二手版上跟某學姐買了小黃，買完才發現小黃根本沒辦法爬坡 ^_^ 時速 6 要我的命，完全被它可愛的外表騙了，請大家三思而後行不要跟我一樣衝動購物。",
-    "story": "Waiting...",
-    "contact": "IG:@ccu.art.fun"
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
   },
   {
     "id": "work-4",
@@ -44,20 +44,20 @@
     "grade": "資管系",
     "size": "80 x 120 cm",
     "concept": "在小動物身上看到像人類一樣的情緒表達，總讓我忍不住想要抓住這種很「活」的有趣瞬間。",
-    "story": "Waiting...",
-    "contact": "IG:@ccu.art.fun"
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
   },
   {
     "id": "work-5",
     "title": "透明人間",
     "image": "../src/img/image4.jpg",
     "medium": "棉布、油畫、壓克力顏料",
-    "creator": "月球牡蠣🥑",
+    "creator": "月球牡蠣",
     "grade": "心理系",
     "size": "待量",
     "concept": "空空的",
-    "story": "Waiting...",
-    "contact": "IG:@ccu.art.fun"
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
   },
   {
     "id": "work-6",
@@ -68,8 +68,8 @@
     "grade": "財經法律研究所",
     "size": "53 x 41 cm",
     "concept": "以「凌波零」為發想，除了藍髮與紅眼之外，其眼神嚴肅且深邃，將自己的情感藏在最深處，非常迷人，同司法官在審案般不苟言笑。",
-    "story": "Waiting...",
-    "contact": "Mail:"
+    "story": "What you see is what you feel...",
+    "contact": "IG:shaoqi4514"
   },
   {
     "id": "work-7",
@@ -80,8 +80,8 @@
     "grade": "財經法律研究所",
     "size": "60.5 x 50 cm",
     "concept": "<鏈鋸人蕾潔篇>是最浪漫又殘忍的篇章，展現愛情並存於美好與毀滅之間。故事從蕾潔的一抹微笑開始，結束於生命草草逝去而不知。看完電影後在思緒萬千之下而畫成，暈船到現在。",
-    "story": "Waiting...",
-    "contact": "Mail:"
+    "story": "What you see is what you feel...",
+    "contact": "IG:shaoqi4514"
   },
   {
     "id": "work-8",
@@ -92,7 +92,379 @@
     "grade": "語言所碩二",
     "size": "待量",
     "concept": "在樹與樹之間的平台站著，用活潑的身影帶動了夏季。",
-    "story": "Waiting...",
-    "contact": "IG:@ccu.art.fun"
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-9",
+    "title": "聖誕樹",
+    "image": "../src/img/image8.jpg",
+    "medium": "棉布、油畫",
+    "creator": "黃境瑜",
+    "grade": "",
+    "size": "待量",
+    "concept": "因為喜歡聖誕樹，所以畫了一顆聖誕樹，遠看是聖誕樹，近看也是聖誕樹，反正你能看到聖誕樹，就是聖誕樹",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-31",
+    "title": "鴨鴨",
+    "image": "../src/img/image9.jpg",
+    "medium": "水彩",
+    "creator": "陳祐榕",
+    "grade": "通訊系",
+    "size": "",
+    "concept": "呱",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-36",
+    "title": "To my friends",
+    "image": "../src/img/image10.jpg",
+    "medium": "色鉛筆，水彩",
+    "creator": "陳玟晴",
+    "grade": "",
+    "size": "待量",
+    "concept": "獻給我多年的摯友。長大後能見面的時間越來越少了，但只要聚在一起聊起往事，又會沉醉在當時的香氣中，彷彿回到彼此相遇的那年春天，那個我們都還是孩子的春日。",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-37",
+    "title": "曾祖母像",
+    "image": "../src/img/image11.jpg",
+    "medium": "鉛筆素描",
+    "creator": "黃少綦",
+    "grade": "財經法律學系研究所",
+    "size": "29.7 x 21 cm",
+    "concept": "從老舊的櫃子中整理出曾祖母的照片，畫面很模糊。我將曾祖母重新畫出，完成後，阿嬤與媽媽非常開心，甚至端詳著非常久而念念不忘，不停說著:「一模一樣」。",
+    "story": "What you see is what you feel...",
+    "contact": "IG:shaoqi4514"
+  },
+  {
+    "id": "work-38",
+    "title": "尖叫司法官",
+    "image": "../src/img/image12.jpg",
+    "medium": "壓克力顏料、棉畫布",
+    "creator": "黃少綦",
+    "grade": "財經法律學系研究所",
+    "size": "53 x 41 cm",
+    "concept": "這是我以譏諷、對立衝突地角度為創作靈感的作品，說明如下：我痛恨過度保護犯罪者的判決，如「勇夫殺賊案對竊賊的過度保護」、「新竹輪胎行縱火案」等案件，並且我認為當人持武器意圖攻擊他人時，就應該做好被反殺的心理準備。我們不像法官一樣會「奪棒」、「奪刀」，被害人或其家屬只能在法官的審判下歷經痛苦、恐懼與無盡的憤怒。司法官，高高在上，以凡人之軀做神的事，然而其確可能是極度脆弱、極端、暴力與瘋癲的存在。",
+    "story": "致敬弗朗西斯•培根的「尖叫教宗」系列作品，我很喜歡他粗曠且富有張力的創作風格。",
+    "contact": "IG:shaoqi4514"
+  },
+  {
+    "id": "work-39",
+    "title": "靜靜流淌",
+    "image": "../src/img/image14.jpg",
+    "medium": "壓克力",
+    "creator": "楊盛安",
+    "grade": "通訊四",
+    "size": "?? x ?? cm",
+    "concept": "兩隻小獨角鯨跟著媽媽獨角鯨在冷冽的海洋遊蕩，卻又感覺掀起溫暖的波瀾延續著。",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-24",
+    "title": "午後雨中成都路",
+    "image": "../src/img/IMG_6111.JPG",
+    "medium": "水彩、色鉛筆",
+    "creator": "吳承翰",
+    "grade": "資訊工程所碩二",
+    "size": "待量",
+    "concept": "成都路，一條見證台北近代發展史的時間長廊，穿越了紅磚歲月與現代摩登，是無數台北人青春記憶中不可抹去的一部分。",
+    "story": "從乘載日本時代城市想像的西門紅樓，飄香 60 逾年的蜂大咖啡，庇佑兩岸信眾的台北天后宮，閃爍螢幕光影的國賓戲院，萬年大樓，西門町。這裡有著一批批揮灑青春，追夢的年輕人，以及為了生活奔走，往返三重台北的人們。陰雨綿綿，人車交錯，平凡的城市景致，卻因人們在這留下的生活痕跡，有了不平凡的故事。",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-10",
+    "title": "",
+    "image": "../src/img/IMG_6092.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-11",
+    "title": "",
+    "image": "../src/img/IMG_6093.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-12",
+    "title": "",
+    "image": "../src/img/IMG_6094.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-14",
+    "title": "",
+    "image": "../src/img/IMG_6096.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-15",
+    "title": "",
+    "image": "../src/img/IMG_6097.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-16",
+    "title": "",
+    "image": "../src/img/IMG_6098.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-17",
+    "title": "",
+    "image": "../src/img/IMG_6099.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-18",
+    "title": "",
+    "image": "../src/img/IMG_6100.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-19",
+    "title": "",
+    "image": "../src/img/IMG_6102.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-20",
+    "title": "",
+    "image": "../src/img/IMG_6103.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-21",
+    "title": "",
+    "image": "../src/img/IMG_6105.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-22",
+    "title": "",
+    "image": "../src/img/IMG_6106.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-23",
+    "title": "",
+    "image": "../src/img/IMG_6109.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-25",
+    "title": "老師示範作品",
+    "image": "../src/img/IMG_6112.JPG",
+    "medium": "色鉛筆，水彩",
+    "creator": "林漢泉",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "FB:林漢泉"
+  },
+  {
+    "id": "work-26",
+    "title": "老師示範作品",
+    "image": "../src/img/IMG_6113.JPG",
+    "medium": "色鉛筆，水彩",
+    "creator": "林漢泉",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "FB:林漢泉"
+  },
+  {
+    "id": "work-27",
+    "title": "老師示範作品",
+    "image": "../src/img/IMG_6114.JPG",
+    "medium": "色鉛筆，水彩",
+    "creator": "林漢泉",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "FB:林漢泉"
+  },
+  {
+    "id": "work-28",
+    "title": "",
+    "image": "../src/img/IMG_6115.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-29",
+    "title": "",
+    "image": "../src/img/IMG_6116.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-30",
+    "title": "老師示範作品",
+    "image": "../src/img/IMG_6117.JPG",
+    "medium": "色鉛筆，水彩",
+    "creator": "林漢泉",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "FB:林漢泉"
+  },
+  {
+    "id": "work-31",
+    "title": "",
+    "image": "../src/img/IMG_6118.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-32",
+    "title": "",
+    "image": "../src/img/IMG_6119.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-33",
+    "title": "",
+    "image": "../src/img/IMG_6120.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-34",
+    "title": "",
+    "image": "../src/img/IMG_6121.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
+  },
+  {
+    "id": "work-35",
+    "title": "",
+    "image": "../src/img/IMG_6123.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club"
   }
 ]
