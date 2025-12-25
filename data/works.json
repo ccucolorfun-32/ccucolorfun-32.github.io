@@ -65,6 +65,32 @@
     "thumb": "../src/img_resize/image4.jpg"
   },
   {
+    "id": "work-33",
+    "title": "性別",
+    "image": "../src/img/IMG_6120.JPG",
+    "medium": "棉布、油畫",
+    "creator": "月球牡蠣",
+    "grade": "心理系",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club",
+    "thumb": "../src/img_resize/IMG_6120.JPG"
+  },
+  {
+    "id": "work-34",
+    "title": "inner space",
+    "image": "../src/img/IMG_6121.JPG",
+    "medium": "棉布、油畫",
+    "creator": "月球牡蠣",
+    "grade": "心理系",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club",
+    "thumb": "../src/img_resize/IMG_6121.JPG"
+  },
+  {
     "id": "work-6",
     "title": "司法官",
     "image": "../src/img/image6.jpg",
@@ -466,32 +492,6 @@
     "story": "What you see is what you feel...",
     "contact": "IG:@ccu_colorfun_club",
     "thumb": "../src/img_resize/IMG_6119.JPG"
-  },
-  {
-    "id": "work-33",
-    "title": "",
-    "image": "../src/img/IMG_6120.JPG",
-    "medium": "棉布、油畫",
-    "creator": "",
-    "grade": "",
-    "size": "待量",
-    "concept": "",
-    "story": "What you see is what you feel...",
-    "contact": "IG:@ccu_colorfun_club",
-    "thumb": "../src/img_resize/IMG_6120.JPG"
-  },
-  {
-    "id": "work-34",
-    "title": "",
-    "image": "../src/img/IMG_6121.JPG",
-    "medium": "棉布、油畫",
-    "creator": "",
-    "grade": "",
-    "size": "待量",
-    "concept": "",
-    "story": "What you see is what you feel...",
-    "contact": "IG:@ccu_colorfun_club",
-    "thumb": "../src/img_resize/IMG_6121.JPG"
   },
   {
     "id": "work-35",
