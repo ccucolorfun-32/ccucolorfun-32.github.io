@@ -72,7 +72,7 @@
     "creator": "月球牡蠣",
     "grade": "心理系",
     "size": "待量",
-    "concept": "",
+    "concept": "…改不掉",
     "story": "What you see is what you feel...",
     "contact": "IG:@ccu_colorfun_club",
     "thumb": "../src/img_resize/IMG_6120.JPG"
@@ -85,7 +85,7 @@
     "creator": "月球牡蠣",
     "grade": "心理系",
     "size": "待量",
-    "concept": "",
+    "concept": "根本還沒有畫完但也好，畢竟也想不出來",
     "story": "What you see is what you feel...",
     "contact": "IG:@ccu_colorfun_club",
     "thumb": "../src/img_resize/IMG_6121.JPG"
@@ -221,6 +221,32 @@
     "thumb": "../src/img_resize/IMG_6111.JPG"
   },
   {
+    "id": "work-19",
+    "title": "Lilium",
+    "image": "../src/img/IMG_6102.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "財法所",
+    "size": "待量",
+    "concept": "百合花一朵一朵的盛開著，花朵上每天都有晶瑩的水珠，野草們以為那是昨夜的露水，只有百合自己知道，那是極深沉的歡喜所結的淚滴。—節錄自林清玄《心田上的百合花開》",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club",
+    "thumb": "../src/img_resize/IMG_6102.JPG"
+  },
+  {
+    "id": "work-20",
+    "title": "春光為禮",
+    "image": "../src/img/IMG_6103.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "財法所",
+    "size": "待量",
+    "concept": "漫山遍野的野花盛開，將山坡點綴得五彩斑斕，那是春天贈與的禮物。",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club",
+    "thumb": "../src/img_resize/IMG_6103.JPG"
+  },
+  {
     "id": "work-10",
     "title": "",
     "image": "../src/img/IMG_6092.JPG",
@@ -323,32 +349,6 @@
     "story": "What you see is what you feel...",
     "contact": "IG:@ccu_colorfun_club",
     "thumb": "../src/img_resize/IMG_6100.JPG"
-  },
-  {
-    "id": "work-19",
-    "title": "",
-    "image": "../src/img/IMG_6102.JPG",
-    "medium": "棉布、油畫",
-    "creator": "",
-    "grade": "",
-    "size": "待量",
-    "concept": "",
-    "story": "What you see is what you feel...",
-    "contact": "IG:@ccu_colorfun_club",
-    "thumb": "../src/img_resize/IMG_6102.JPG"
-  },
-  {
-    "id": "work-20",
-    "title": "",
-    "image": "../src/img/IMG_6103.JPG",
-    "medium": "棉布、油畫",
-    "creator": "",
-    "grade": "",
-    "size": "待量",
-    "concept": "",
-    "story": "What you see is what you feel...",
-    "contact": "IG:@ccu_colorfun_club",
-    "thumb": "../src/img_resize/IMG_6103.JPG"
   },
   {
     "id": "work-21",
