@@ -22,7 +22,7 @@
     "size": "45.5 x 33 cm",
     "concept": "是鏈鋸人第一季中我很喜歡的壞女人，她的對於理想世界的野心與企圖非常明確，也為此付出實際行動，我很喜歡。",
     "story": "因為支配惡魔的特性，她必須只能透過控制他人而活著，這也註定她成為一個悲情之人。瑪奇瑪不懂得如何與他人平等相處，但她卻渴望一個平等的擁抱。總之，瑪奇瑪真是令人印象深刻與著迷的女角。",
-    "contact": "IG:@ccu_colorfun_club",
+    "contact": "IG:shaoqi4514",
     "thumb": "../src/img_resize/image1.jpg"
   },
   {
@@ -37,6 +37,19 @@
     "story": "What you see is what you feel...",
     "contact": "IG:@ccu_colorfun_club",
     "thumb": "../src/img_resize/image2.jpg"
+  },
+  {
+    "id": "work-40",
+    "title": "沈浸於時間洪流",
+    "image": "../src/img/image16.png",
+    "medium": "油畫、壓克力顏料、炭筆",
+    "creator": "陳芊妤",
+    "grade": "財經法律學系研究所",
+    "size": "53 x 45.5 cm",
+    "concept": "黑夜與白晝之間輪替，沈浸在五味雜陳的心情世界，時間流逝飛速。裏頭的女孩則是鬼刀中的風鈴公主。 ^_^ 時速 6 要我的命，完全被它可愛的外表騙了，請大家三思而後行不要跟我一樣衝動購物。",
+    "story": "What you see is what you feel...",
+    "contact": "IG:shaoqi4514",
+    "thumb": "../src/img_resize/image16.png"
   },
   {
     "id": "work-4",
@@ -245,6 +258,19 @@
     "story": "What you see is what you feel...",
     "contact": "IG:@ccu_colorfun_club",
     "thumb": "../src/img_resize/IMG_6103.JPG"
+  },
+  {
+    "id": "work-13",
+    "title": "和平？",
+    "image": "../src/img/image15.png",
+    "medium": "油彩",
+    "creator": "黃少綦",
+    "grade": "財經法律學系研究所",
+    "size": "53.0 x 41.0 cm",
+    "concept": "白鴿口銜橄欖枝的和平鴿形象，是出自畢卡索的作品「鴿子與太陽」。如今我以非白鴿的鳥類口銜橄欖枝，大眾能否在「第一眼」就將此作品與和平劃作等號呢？故稱「和平？」。",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club",
+    "thumb": "../src/img_resize/image15.png"
   },
   {
     "id": "work-10",
