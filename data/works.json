@@ -130,6 +130,19 @@
     "thumb": "../src/img_resize/image5.jpg"
   },
   {
+    "id": "work-23",
+    "title": "霍姆拉 · 菲尼克斯",
+    "image": "../src/img/IMG_6109.JPG",
+    "medium": "棉布、油彩、壓克力顏料、刮刀",
+    "creator": "王云芷",
+    "grade": "外國語文學系英語教學碩士班",
+    "size": "待量",
+    "concept": "「霍姆拉」為日文「炎（ほむら，Homura）」之音譯，「菲尼克斯」為英文「鳳凰（Phoenix）」之音譯，兩者結合即寓有「火鳳凰」之意。 「炎」象徵火光與興盛，寓意蓬勃發展與生命能量的燃燒；「鳳凰」則象徵祥瑞與重生，被視為百鳥之王，代表陰陽平衡與不朽的生命力，其「浴火重生」的意象亦與現代語境中的重生、希望與轉化相互呼應。因此，《霍姆拉・菲尼克斯》不僅描繪一隻浴火重生的鳳凰，更象徵個體在困境與磨難中重塑自我、走向新生的過程，呈現出毀滅與重生並存、脆弱與力量共生的生命狀態。",
+    "story": "起初，我只是單純想畫「燃燒中的火」。然而對我而言，fire 常被使用為形容詞或片語，例如： fire fighter、fire crackers、或 xxx on fire 等，彷彿火本身需要一個「驅使其動能的存在」。因此，我開始思考，是否能為火找到一個具象的承載者，而與火最為高度連結的動物，便是「鳳凰」。\n火鳳凰的意象也讓我立刻聯想到《哈利波特》中名為 Fawkes（佛客使）的鳳凰。Fawkes 是霍格華茲校長阿不思・鄧不利多所飼養的鳳凰，擁有強大的魔法力量，幾乎不會真正死亡，即使被索命咒擊中也能重生，牠的眼淚更具有療癒的能力。這樣的形象，與「浴火重生」的意涵自然重疊，也成為我創作時的重要精神來源。\n同時，我也將「浴火重生」視為一種隱喻，象徵人在困境與磨難中重塑自我、走向新生的歷程，如同人生中的轉捩點。這件作品不僅想勉勵正在與痛苦或壓力搏鬥的人，也希望祝福那些已克服困難、即將邁入人生新階段的鬥士，並為仍在徬徨無助中的人帶來一點溫暖與希望。",
+    "contact": "yjwang1030186@gmail.com",
+    "thumb": "../src/img_resize/IMG_6109.JPG"
+  },
+  {
     "id": "work-8",
     "title": "麻雀",
     "image": "../src/img/image7.jpg",
@@ -403,19 +416,6 @@
     "thumb": "../src/img_resize/IMG_6106.JPG"
   },
   {
-    "id": "work-23",
-    "title": "",
-    "image": "../src/img/IMG_6109.JPG",
-    "medium": "棉布、油畫",
-    "creator": "",
-    "grade": "",
-    "size": "待量",
-    "concept": "",
-    "story": "What you see is what you feel...",
-    "contact": "IG:@ccu_colorfun_club",
-    "thumb": "../src/img_resize/IMG_6109.JPG"
-  },
-  {
     "id": "work-25",
     "title": "老師示範作品",
     "image": "../src/img/IMG_6112.JPG",
@@ -531,5 +531,96 @@
     "story": "What you see is what you feel...",
     "contact": "IG:@ccu_colorfun_club",
     "thumb": "../src/img_resize/IMG_6123.JPG"
+  },
+  {
+    "id": "work-41",
+    "title": "",
+    "image": "../src/img/image15.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club",
+    "thumb": "../src/img_resize/image15.JPG"
+  },
+  {
+    "id": "work-42",
+    "title": "",
+    "image": "../src/img/image16.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club",
+    "thumb": "../src/img_resize/image16.JPG"
+  },
+  {
+    "id": "work-43",
+    "title": "",
+    "image": "../src/img/image17.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club",
+    "thumb": "../src/img_resize/image17.JPG"
+  },
+  {
+    "id": "work-44",
+    "title": "",
+    "image": "../src/img/image18.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club",
+    "thumb": "../src/img_resize/image18.JPG"
+  },
+  {
+    "id": "work-45",
+    "title": "",
+    "image": "../src/img/image19.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club",
+    "thumb": "../src/img_resize/image19.JPG"
+  },
+  {
+    "id": "work-46",
+    "title": "",
+    "image": "../src/img/image20.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club",
+    "thumb": "../src/img_resize/image20.JPG"
+  },
+  {
+    "id": "work-47",
+    "title": "",
+    "image": "../src/img/image21.JPG",
+    "medium": "棉布、油畫",
+    "creator": "",
+    "grade": "",
+    "size": "待量",
+    "concept": "",
+    "story": "What you see is what you feel...",
+    "contact": "IG:@ccu_colorfun_club",
+    "thumb": "../src/img_resize/image21.JPG"
   }
 ]
